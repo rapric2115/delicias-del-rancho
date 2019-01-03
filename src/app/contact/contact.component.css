@@ -1,0 +1,38 @@
+form {
+  margin-top: 2rem;
+  padding: .5rem;
+}
+
+.form-control {
+  border: solid 1px var(--bg-red);
+}
+
+label {
+  color: var(--text-color);
+}
+
+.btn-form {
+  border: solid 1px var(--bg-red);
+  color: var(--text-color);
+  background: transparent;
+}
+
+.btn-form:hover {
+  background: var(--bg-red);
+  color: snow;
+}
+
+h1 {
+  margin-top: 5%;
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    max-width: 100% !important;
+  }
+}

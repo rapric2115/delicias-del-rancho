@@ -1,0 +1,81 @@
+.callAction {
+  height: 50vh;
+  background-color: var(--bg-red);
+  padding: .8rem;
+  color: #ffffff;
+}
+.callAction-text {
+  padding: 2.5rem;
+}
+.callAction-text h3 {
+  padding-top: 4%;
+}
+.callAction-text p {
+  text-align: center;
+}
+.btn-callAction {
+  border: solid 1px snow;
+  background-color: snow;
+  color: var(--bg-red);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 30%;
+}
+.btn-callAction:hover {
+  border: solid 2px snow;
+  background-color: var(--text-color);
+  color: snow;
+}
+
+@media (max-width: 575px) {
+  .callAction {
+    height: 60vh;
+    background-color: var(--bg-red);
+    padding: .8rem;
+    color: #ffffff;
+  }
+  .btn-callAction {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .callAction {
+    height: 30vh;
+  }
+  .btn-callAction {
+    margin-top: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .callAction {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1023px) {
+  .callAction {
+    height: 40vh;
+  }
+  .btn-callAction {
+    margin-top: 27%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .callAction {
+    height: 40vh !important;
+  }
+ }
+@media (width: 640px) {
+  .callAction {
+    height: 90vh;
+  }
+  .callAction-text {
+    padding: 1.5rem;
+  }
+  .btn-callAction {
+    margin-top: -4%;
+  }
+}

@@ -1,0 +1,228 @@
+<div class="container-fluid">
+    <main role="main" class="cover-img">
+            <h1 class="text-center" translate> {{ 'Title.TranslationSection' | translate }} </h1>
+            <button class="btn btn-catalogo" [routerLink]="['/catalogo']" role="button">{{ 'Buttons.TranslationSection' | translate }}</button>
+            <p class="side-text">{{ 'SideText.TranslationSection' | translate }}</p>
+            <div class="row social-med">
+                <div class="col-md-6">
+                    <ul>
+                      <li><i class="fab fa-facebook-f"></i></li>
+                      <li><i class="fab fa-twitter"></i></li>
+                      <li><i class="fab fa-instagram"></i></li>
+                      <li class="mobilePhoneNumber"><a href="tel:+1 702.654.3210"><i class="fas fa-phone"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 phone">
+                    +1 305 846 9212 | +1 786 360 6314
+                </div>
+            </div>
+      </main><!-- /.container -->
+ <!-- <div class="cover-img">
+      <h1 class="text-center"> Delicias del Rancho </h1>
+      <button class="btn btn-catalogo" [routerLink]="['/catalogo']">CATALOGO</button>
+      <p class="side-text">Delicias del Rancho</p>
+      <div class="row social-med">
+          <div class="col-md-6">
+              <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li class="mobilePhoneNumber"><a href="tel:+1 702.654.3210"><i class="fas fa-phone"></i></a></li>
+              </ul>
+          </div>
+          <div class="col-md-6 phone">
+              +1 305 846 9212 | +1 786 360 6314
+          </div>
+        </div>
+  </div> -->
+</div>
+<div class="container">
+    <div class="about">
+        <div class="row">
+          <div class="col-md-6">
+              <div class="img-product">
+                <img src="../../assets/bg-image/delicias-del-rancho-logo.png" alt="Logo Delicias del Rancho" class="img-fluid img-logo">
+                <img src="../../assets/bg-image/nombreLogoCircle.png" alt="Delicias del Rancho name" class="img-fluid img-nameLogoCircle">
+                <img src="../../assets/bg-image/queso1.png" alt="queso fresco delicias del rancho" class="img-fluid img-queso">
+                <caption>Queso Fresco <br> <span class="name-caption">Delicias del Rancho</span></caption>
+              </div>
+          </div>
+          <div class="col-md-6 DdR">
+            <h2 class="text-center">
+              {{'Intro.TranslationSection' | translate }}
+            </h2>
+            <p>
+                {{ 'Startpage.TranslationSections' | translate }}
+            </p>
+            <p>
+              {{ 'SecondParagraph.TranslationSection' | translate }}
+            </p>
+            <p>
+              {{ 'ThirdParagraph.TranslationSection' | translate }}
+            </p>
+            <p>
+              <b><i>{{ 'Title.TranslationSection' | translate }}</i></b> {{ 'FourParagraph.TranslationSection' | translate }}
+            </p>
+            <ol>
+              <li>Quesos Frescos</li>
+              <li>Quesos Secos</li>
+              <li>Quesos con Jalapeños</li>
+              <li>Quesos Ahumados</li>
+              <details>
+                <summary>Mas Quesos</summary>
+              <li>Quesos para Freir</li>
+              <li>Quesos Doble Crema</li>
+              <li>Queso Doble Crema Ahumado </li>
+              <li>Quesillo</li>
+              <li>Cuajada</li>
+              </details>
+            </ol>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container-fluid">
+  <!-- Product List Details Promotions Sections -->
+  <app-our-product></app-our-product>
+  <!-- Call Action button -->
+  <app-callto-action></app-callto-action>
+  <!-- Product Details Section Ends -->
+  <footer class="page-footer font-small blue-gray lighten-5">
+
+      <div class="footer-bg-light-red">
+        <div class="container">
+
+          <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">{{ 'KeepTouchSocialMedia.TranslationSection' | translate }}</h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter white-text mr-4"> </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i class="fab fa-google-plus white-text mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin white-text mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram white-text"> </i>
+              </a>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row-->
+
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3 dark-grey-text">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold">{{ 'Title.TranslationSection' | translate }} </h6>
+            <hr class="accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p> {{ 'Footer.Paragraph' | translate }} </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">{{'Footer.Prods' | translate }}</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="dark-grey-text" href="#!">Queso Gouda Delicias del Rancho</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Queso con Jalapeños Picantes</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Queso Fresco</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Queso Ahumado</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">{{ 'Footer.Nears' | translate }}</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="dark-grey-text" [routerLink]="['/catalogo']" routerLinkActive="router-link-active" >{{ 'Title.TranslationSection' | translate }}</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" [routerLink]="['/contacto']" routerLinkActive="router-link-active" >Contacto</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Help</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">{{ 'Nav.Contact' | translate }}</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+            <p>
+              <i class="fa fa-phone mr-3"></i> + 01 305 846 92 12</p>
+            <p>
+              <i class="fa fa-phone mr-3"></i> + 01 786 360 63 14</p>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-black-50 py-3">© 2018 Copyright:
+        <a class="dark-grey-text" href="#"> {{ 'Title.TranslationSection' | translate }}</a> <br>
+        <a class="dev" href="mailto:raphael.richardson@gmail.com">Design &amp; develop by Raphael Richardson</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</div>

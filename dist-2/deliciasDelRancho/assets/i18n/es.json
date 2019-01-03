@@ -1,0 +1,47 @@
+{
+  "Title": {
+    "TranslationSection": "Delicias del Rancho"
+  },
+  "Nav": {
+    "home": "Inicio",
+    "Contact": "Contacto"
+  },
+  "Intro": {"TranslationSection":"Sobre Delicias del Rancho"},
+  "SideText": {"TranslationSection": "Delicias del Rancho"},
+  "Startpage": {
+      "TranslationSections": "Desde sus inicios Delicias del Rancho ha tenido gran impacto en nuestra comunidad son pioneros en produccion de Quesos realizados con recetas tradicionales de la cocina Latino Americana y ademas de su gran innovacion en su elavoracion de sus Quesos tradicionales."
+      },
+      "SecondParagraph": {
+        "TranslationSection": "Delicias del Rancho es una empresa con años de experiencia en la elavoracion y Distribucion de productos expecificamente Quesos, con una reputacion excepcional entre sus clientes y consumidores; Reputacion que han alcanzado a traves de sus largos años de incansable trabajo."
+      },
+      "ThirdParagraph" : {
+        "TranslationSection": "Delicias del Rancho posee una gran gama de productos, elavorados con productos Organicos, directamente del rancho y con los mas altos estandares de calidad ofreciendo a sus clientes y consumidores productos 100% frescos de calidad de envergadura internacional."
+      },
+      "FourParagraph": {
+        "TranslationSection": "cuenta con mas de 20 productos tales como: "
+  },
+  "Aboutpage": {
+      "TranslationSections": "We are letsboot"
+  },
+  "KeepTouchSocialMedia": {
+       "TranslationSection": "Mantente Conectado con Nosotros en nuestras redes Sociales!"
+  },
+  "Buttons": {
+    "TranslationSection": "Catalogo",
+    "NavEn": "Ingles",
+    "NavEs": "Español"
+  },
+  "NuestrosProductos": {
+     "TS": "Nuestros Productos",
+     "Paragraph": "Nuestros productos son elavorados con lo mejor del Rancho, con calidad superior, son cuidadosamente seleccionados para brindar lo mejor de nosotros a nuestros clientes y consumidores."
+  },
+  "CallAction": {
+    "TS": "Los Mejores Quesos del Pais.",
+    "Paragraph": "Deliciosos y frescos siempre, visite nuestro catalogo en linea para ver nuestras variedad de productos."
+  },
+  "Footer": {
+     "Prods": "Productos",
+     "Nears": "Cerca de Ti"
+  }
+
+}

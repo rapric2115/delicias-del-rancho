@@ -1,0 +1,40 @@
+.nbar {
+  z-index: 1000;
+}
+.img-logo {
+  width: 4rem;
+}
+.nav-link {
+  color: snow !important;
+}
+.bg-red {
+  background-color: var(--bg-red);
+}
+.fas {
+  font-size: 2rem;
+  color: snow;
+}
+.lan a {
+  cursor: pointer;
+}
+.fa-globe {
+  font-size: 1.5rem;
+  color: snow;
+}
+.btn-outline-white {
+  background : transparent !important;
+  border: solid 1px snow;
+}
+.mobile-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-btn {
+    display: block;
+    margin-left: 30%;
+  }
+  .btn-translate {
+    display: none;
+  }
+}

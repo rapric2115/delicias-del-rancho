@@ -1,0 +1,13 @@
+<div class="ProductDetails text-center bg__prod-details">
+    <h3>{{ 'NuestrosProductos.TS' | translate }} </h3>
+          <ul class="images">
+              <!-- Inline styles added for demonstration purposes only. -->
+              <li *ngFor="let pl of ProdL">
+                <img src="{{ pl.image2 }}" alt="" class="img-fluid img">
+                <figcaption class="caption">{{ pl.name }}</figcaption>
+              </li>
+            </ul>
+        <p>
+         {{ 'NuestrosProductos.Paragraph' | translate }}
+        </p>
+<div>

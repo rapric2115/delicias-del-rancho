@@ -1,0 +1,45 @@
+{
+  "Title": { "TranslationSection":"Delights of the Ranch" },
+  "Nav": {
+    "home": "Home",
+    "Contact": "Contact"
+  },
+  "Intro": {"TranslationSection":"About Delights of the Ranch."},
+  "SideText": {"TranslationSection": "Delights of the Ranch"},
+  "Startpage":
+      {
+      "TranslationSections": "Since its inception, Delicias del Rancho has had a great impact on our community. They are pioneers in the production of cheeses made with traditional recipes of Latin American cuisine and in addition to their great innovation in the development of their traditional cheeses."
+      },
+      "SecondParagraph": {
+        "TranslationSection": "Delicias del Rancho is a company with years of experience in the production and distribution of products specifically Cheeses, with an exceptional reputation among its customers and consumers; Reputation that they have achieved through their long years of tireless work."
+      },
+      "ThirdParagraph" : {
+        "TranslationSection": "Delicias del Rancho has a wide range of products, made with organic products, directly from the ranch and with the highest quality standards offering its customers and consumers 100% fresh quality products of international scope."
+      },
+      "FourParagraph": {
+        "TranslationSection": "has more than 20 products such as: "
+      },
+  "Aboutpage": {
+      "TranslationSections": "We are letsboot"
+    },
+  "KeepTouchSocialMedia": {
+      "TranslationSection": "Stay Connected with Us in our Social Networks!"
+    },
+  "Buttons": {
+    "TranslationSection": "Catalogue",
+    "NavEn": "English",
+    "NavEs": "Spanish"
+    },
+  "NuestrosProductos": {
+    "TS": "Our Products",
+    "Paragraph": "Our products are elaborated with the best of the Ranch, with superior quality, they are carefully selected to offer the best of us to our clients and consumers."
+    },
+  "CallAction": {
+    "TS": "The Best Cheeses of the Country.",
+    "Paragraph": "Delicious and fresh always, visit our online catalog to see our variety of products."
+    },
+  "Footer": {
+    "Prods": "Products",
+    "Nears": "Near you"
+  }
+}

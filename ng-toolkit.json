@@ -1,0 +1,12 @@
+{
+  "universal": {
+    "project": "deliciasDelRancho",
+    "skipInstall": false,
+    "directory": "."
+  },
+  "pwa": {
+    "directory": ".",
+    "skipInstall": true,
+    "project": "deliciasDelRancho"
+  }
+}

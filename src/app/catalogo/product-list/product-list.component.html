@@ -1,0 +1,86 @@
+
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group" role="group" aria-label="First group">
+      <button type="button" class="btn btn-red" (click)="sort('name')">Nombre</button>
+      <button type="button" class="btn btn-red" (click)="sort('category')">Categoria</button>
+      <button type="button" class="btn btn-red" (click)="sort('peso')">Libras</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-red" (click)="sort('calories')">Calorias</button>
+        <button type="button" class="btn btn-red" (click)="sort('carbohydrates')">Carbohidratos</button>
+        <button type="button" class="btn btn-red" (click)="sort('peso')">Libras</button>
+      </div>
+    <div class="input-group">
+        <app-filter (changed)="filter($event)"></app-filter>
+    </div>
+  </div>
+<h2 class="text-center">{{'Buttons.TranslationSection' | translate }}</h2>
+<div class="row">
+<div class="col-md-3 p-3" *ngFor=" let prod of filteredProducts">
+  <div class="card mx-auto" style="width: 17rem;">
+    <img class="card-img-top img-card" src="{{prod.image2}}" alt="Card image cap">
+    <div class="card-body text-center">
+      <h5 class="card-title">{{prod.name}}</h5>
+      <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#productModal" (click)="onSelect(prod)">
+          Destalles
+      </button>
+
+    </div>
+  </div>
+</div>
+</div>
+<!--Modal-->
+<div  *ngIf="selectedProd" class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{ selectedProd.name | uppercase }} Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+                <img src="{{ selectedProd.image2 }}" alt="" class="img-fluid">
+                <p><label for="Description" class="label label-primary text-bold"> Descripcion:</label><br> {{ selectedProd.description }}</p>
+                <p><label for="Pounds" class="label label-primary text-bold"> Presentacion:</label> {{ selectedProd.peso }}</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Valor Nutricional</h3>
+                 <p class="text-center val">Valores basados en porción de 100g</p>
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">CAL</th>
+                        <th scope="col">COL</th>
+                        <th scope="col">Sodio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>{{ selectedProd.calories }}</td>
+                        <td>{{ selectedProd.cholesterol }}</td>
+                        <td>{{ selectedProd.sodium }}</td>
+                      </tr>
+                      <tr>
+                        <th class="text-bold">CAB</th>
+                        <td class="text-bold">PROTEINA</td>
+
+                      </tr>
+                      <tr>
+                        <td>{{ selectedProd.carbohydrates }}</td>
+                        <td>{{ selectedProd.protein }}</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-info disabled">Receta</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>

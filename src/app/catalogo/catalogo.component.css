@@ -1,0 +1,40 @@
+.container {
+  padding-top: 5.5rem;
+}
+.card {
+  margin-bottom: .2rem;
+  border: solid 1px var(--bg-red);
+}
+.cardimg {
+  width: 18rem;
+  position: relative;
+  top: 20%;
+  z-index: 1000;
+  overflow: hidden;
+}
+.card-btn {
+  margin-bottom: 5%;
+}
+
+.btn-outline-red {
+  border: solid 1px var(--bg-red);
+  color: snow;
+}
+
+.img-menu {
+  position: absolute;
+  top: 0;
+  left: 73%;
+  width: 27vw;
+  height: auto;
+  z-index: -1;
+}
+
+.btn-back {
+  color: var(--text-color);
+  font-size: 2rem;
+  position: fixed;
+  top: 11%;
+  left: 6%;
+  z-index: 100;
+}

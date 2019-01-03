@@ -1,0 +1,28 @@
+import { NgtPwaMockModule } from '@ng-toolkit/pwa';
+import { AppComponent } from './app.component';
+import { AppModule } from './app.module';
+import { NgModule } from '@angular/core';
+import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
+import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
+import { BrowserModule } from '@angular/platform-browser';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+    @NgModule({
+        bootstrap: [AppComponent],
+
+        imports: [
+         NgtPwaMockModule,
+         ServerModule,
+         ModuleMapLoaderModule,
+
+         BrowserModule.withServerTransition({appId: 'delicias-del-rancho'}),
+
+         AppModule,
+
+          ServerModule,
+          NoopAnimationsModule,
+          ModuleMapLoaderModule,
+          ServerTransferStateModule, // comment
+                ]
+    })
+    export class AppServerModule {}

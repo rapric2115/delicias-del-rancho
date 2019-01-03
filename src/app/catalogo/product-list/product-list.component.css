@@ -1,0 +1,39 @@
+h2 {
+  margin-top: 1.5em;
+  padding: 1rem;
+}
+.card {
+  border: solid 1px var(--bg-red) !important;
+}
+.text-bold {
+  font-weight: bold;
+}
+.btn-group {
+  margin: .5rem;
+}
+.btn-red {
+  border: solid 1px var(--bg-red);
+  color: var(--text-color);
+  background: transparent;
+  font-weight: 600;
+}
+.btn-red:hover {
+  background-color: var(--bg-red);
+  color: snow;
+}
+.btn-red:focus {
+  background-color: var(--bg-red);
+  color: snow;
+}
+
+@media (max-width: 768px) {
+  .img-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 900px !important;
+  }
+}

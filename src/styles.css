@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Muli|Ranga');
+
+:root {
+ --bg-red: #ef3340;
+ --bg-black: #070600;
+ --shadow: rgba(255, 125, 133, 1);
+ --text-color: #aa0000;
+ --sub-titleFont: 'Ranga', cursive;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+}
+body {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h2, h3 {
+  font-family: 'Ranga', cursive;
+}
+

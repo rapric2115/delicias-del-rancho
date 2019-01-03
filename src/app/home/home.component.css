@@ -1,0 +1,270 @@
+.container-fluid {
+  padding: 0 !important;
+}
+.cover-img {
+  width: 100%;
+  height: 100vh;
+  background-image:url(../../assets/bg-image/just-eat-it.jpg);
+  padding: 0;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  position: relative;
+  top: 30%;
+  font-size: 5rem;
+  color: var(--text-color);
+  text-shadow: 4px 4px 6px var(--shadow);
+}
+
+h2 {
+  color: var(--text-color);
+}
+
+.side-text {
+  position: absolute;
+  top: 12%;
+  left: -8%;
+  transform: rotate(-90deg);
+  letter-spacing: .5rem;
+  color: var(--text-color);
+  font-weight: 700;
+}
+.btn-catalogo {
+  font-size: 2.5rem;
+  color: snow;
+  padding: .5rem 2rem;
+  border: solid 1px var(--bg-red);
+  border-radius: 50px;
+  background: var(--bg-red);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  box-shadow: 3px 3px 4px var(--shadow);
+  text-shadow: 3px 3px 4px var(--shadow);
+  transform: translate(-50%,-50%);
+}
+.btn-catalogo:hover {
+  background-color: var(--text-color);
+  color: snow;
+  border: solid 2px snow;
+}
+.social-med {
+  position: relative;
+  top: 65%;
+  color: var(--text-color);
+}
+.social-med ul {
+  list-style: none;
+  display: inline-flex;
+}
+.social-med ul li {
+  padding: 0 .5rem;
+}
+.phone {
+  text-align: end;
+  padding-right: 5%;
+}
+.mobilePhoneNumber {
+  display: none !important;
+}
+
+.about ol li {
+  color: var(--text-color);
+}
+summary {
+  color: var(--text-color);
+}
+
+.img-product {
+  border: solid 10px var(--bg-red);
+  padding: .5rem;
+  width: 20rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+.img-product caption {
+  width: 13rem;
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  font-family: var(--sub-titleFont);
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #2B0000;
+}
+.img-queso {
+  width: 20rem;
+  position: relative;
+  left: 20%;
+  transform: rotate(5deg);
+}
+.img-logo {
+width: 7rem;
+position: absolute;
+top: 6%;
+left: 21%;
+z-index: 9999;
+}
+.img-nameLogoCircle {
+  position: absolute;
+  width: 8rem;
+  top: 2%;
+  left: 20%;
+  border-radius: 50%;
+}
+.DdR {
+  padding: 2rem;
+}
+
+.DdR  h3, p {
+  color: var(--text-color);
+}
+
+.footer-bg-light-red {
+  background-color: #eaecf9;
+}
+footer {
+  color: var(--text-color);
+}
+.page-footer a {
+  color: var(--text-color);
+}
+
+.dev {
+  font-size: .6rem;
+}
+
+@media (width: 480px) and (orientation: landscape) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 260%;
+    top: 20%;
+  }
+  .btn-catalogo {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .side-text {
+    display: none;
+  }
+  .social-med {
+    width: 99%;
+    text-align: center;
+  }
+  .social-med ul {
+    padding-left: 0;
+  }
+  .phone {
+    width: 99%;
+    text-align: center;
+    margin-top: -4%;
+  }
+  .mobilePhoneNumber {
+    display: block !important;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    transform: translate(-90%,-80%);
+    background-color: var(--bg-red);
+    border-radius: 50%;
+    width: 14vw;
+    height: 8vh;
+    z-index: 100;
+    text-align: center;
+  }
+  .fa-phone {
+    color: snow !important;
+    position: relative;
+    top: .79rem;
+    font-size: 1.5rem;
+    margin: auto;
+  }
+  .img-product {
+    width: 16rem;
+  }
+  .img-logo {
+    width: 4rem;
+    top: 10%;
+    left: 10%;
+  }
+  .img-nameLogoCircle {
+    width: 5rem;
+    top: 6.5%;
+    left: 8%;
+  }
+  .img-product caption {
+   left: 35%;
+   font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .cover-img {
+    height: 80vh;
+  }
+  .side-text {
+    left: -8%;
+  }
+  .btn-catalogo {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .social-med {
+    top: 80%;
+  }
+}
+
+@media (width: 640px) {
+  h1 {
+    top: 21% !important;
+  }
+  .btn-catalogo {
+    font-size: 1.5rem;
+    margin-top: 18%;
+  }
+  .side-text {
+    display: none;
+  }
+  .social-med {
+    top: 0%;
+  }
+  .social-med .col-md-6 {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .cover-img {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social-med {
+    top: 70%;
+  }
+  .img-product caption {
+    top: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover-img {
+    height: 85vh;
+  }
+ }
